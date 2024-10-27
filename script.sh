@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the repository URL for "mygitrepo"
-REPO_URL="https://github.com/username/mygitrepo.git"  # Replace with your actual repository URL
+REPO_URL="https://github.com/aiswarya1502/october"  # Replace with your actual repository URL
 
 # Define the directory name (optional)
-DIR_NAME="mygitrepo"
+DIR_NAME="october"
 
 # Check if the repository is already cloned
 if [ -d "$DIR_NAME" ]; then
