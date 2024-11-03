@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Define the GitHub repository URL
-REPO_URL="https://github.com/yourusername/October.git"
+# Variables
+REPO_URL="https://github.com/aiswarya1502/october.git"
+LOCAL_DIR="october"
 
 # Clone the repository
-if git clone "$REPO_URL"; then
-    echo "Repository cloned successfully."
-else
-    echo "Failed to clone the repository. It may already exist."
-fi
+git clone $REPO_URL $LOCAL_DIR
 
+echo "Repository cloned to $LOCAL_DIR"
